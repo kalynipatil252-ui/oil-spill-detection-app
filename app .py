@@ -7,7 +7,7 @@ st.title("Oil Spill Detection System")
 
 # Load the trained Keras classification model
 # Using 'my_classification_model.keras' as it's the recommended new format
-model = load_model("my_classification_model.keras")
+model = load_model("oil_spill_unet_model.h5")
 
 file = st.file_uploader("Upload Satellite Image")
 
